@@ -13,6 +13,7 @@ import qa.PageObject.HomePage;
 import qa.PageObject.LoginPage;
 import qa.utils.Utilities;
 
+//updated comment by priya wagh
 public class LoginTest extends BaseClass{
 	
 	LoginPage loginpage;
