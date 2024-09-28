@@ -29,6 +29,7 @@ public class LoginTest extends BaseClass{
 	@BeforeMethod
 	public void setup()
 	{	
+	
 		driver =initializeBrowserAndOpenAppUrl(prop.getProperty("browsernm"));
 		//passed driver as a parameter because in homepage constructor is parametrized i.e public HomePage(WebDriver driver)		
 		HomePage homepage=new HomePage(driver); //above driver is passed here as parameter & constructor from Homepage gets called
