@@ -49,6 +49,7 @@ public class SearchTest extends BaseClass{
 		
 	   // searchpage = new SearchPage(driver);
 		String searchMessage=searchpage.retrieveNoProductsMessageText();
+		//changes done here
 		Assert.assertEquals(searchMessage,TestDataprop.getProperty("ProductMismatchWarning"),"No valid product displayed");
 	
 		
