@@ -54,8 +54,8 @@ public class SearchTest extends BaseClass{
 	
 		
 	}
-
-	@Test (priority=3,dependsOnMethods= {"verifySearchWithInValidProduct"})
+/* (priority=3,dependsOnMethods= {"verifySearchWithInValidProduct"})*/
+	@Test (priority=3)
 	public void verifySearchWithoutAnyProduct()
 	{
 		HomePage homepage = new HomePage(driver);
