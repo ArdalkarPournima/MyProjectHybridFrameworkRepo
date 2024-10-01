@@ -6,10 +6,8 @@
       <class name="testcases.SearchTest">
         <methods>
           <include name="verifySearchWithoutAnyProduct"/>
-          <include name="verifySearchWithInValidProduct"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifySearchWithValidProduct"/>
         </methods>
       </class> <!-- testcases.SearchTest -->
     </classes>

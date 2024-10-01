@@ -7,16 +7,22 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import qa.utils.Utilities;
 
 public class BaseClass {
-
+/*
+	//Headless browser
+	ChromeOptions options = new ChromeOptions();
+	options.addArguments("--headless=new");
+	
+	WebDriver driver=new ChromeDriver(options);
+*/	
 	
 	WebDriver driver;
-	
 	public Properties prop;
 	public Properties TestDataprop;
 	
@@ -46,6 +52,11 @@ public class BaseClass {
 		
 		
 	}
+	
+	
+	
+	
+	
 	
 	public WebDriver initializeBrowserAndOpenAppUrl(String browserName)
 	{

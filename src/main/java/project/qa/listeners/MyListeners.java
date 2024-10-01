@@ -1,4 +1,4 @@
-package project.qa.listeners;
+ package project.qa.listeners;
 
 import java.awt.Desktop;
 import java.io.File;
@@ -21,7 +21,7 @@ public class MyListeners implements ITestListener{
 	ExtentReports extentReport;
 	ExtentTest extentTest;
 	String testName;
-	
+	  
 	
 	@Override
 	public void onStart(ITestContext context) {

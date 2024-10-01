@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Automation Suite">
+<suite name="Automation Suite" parallel="methods">
 
 <listeners>
 	<listener class-name="project.qa.listeners.MyListeners"/>
 </listeners>
 
   <test name="Automation Test Cases">
+ 
     <classes>     
        <class name="testcases.RegisterTest"/>
        <class name="testcases.LoginTest"/>
