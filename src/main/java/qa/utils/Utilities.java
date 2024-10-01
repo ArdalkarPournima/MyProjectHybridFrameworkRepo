@@ -15,8 +15,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 public class Utilities {
 
-	public static final int IMPLICIT_WAIT_TIME=10;
-	public static final int WAIT_TIME=10;
+	public static final int IMPLICIT_WAIT_TIME=30;
+	public static final int WAIT_TIME=30;
 	
 	public static String generateEmailTimeStamp()
 	{
