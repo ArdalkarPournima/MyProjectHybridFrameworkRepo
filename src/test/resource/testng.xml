@@ -12,7 +12,7 @@
        <class name="testcases.RegisterTest"/>
        <class name="testcases.LoginTest"/>
        <class name="testcases.SearchTest"/>
-
+	 <class name="testcases.OrderProduct"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
